@@ -1,0 +1,10 @@
+.container{
+    overflow-x: hidden;
+    height: 109vh;
+    width: 100vw;
+
+}
+.sliderText{
+    font-size: 40vw;
+    white-space: nowrap;
+}
