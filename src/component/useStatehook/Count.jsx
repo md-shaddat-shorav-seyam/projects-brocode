@@ -4,7 +4,7 @@ export function Count() {
   const [c, setC] = useState(0);
 
   return (
-    <div className="h-screen w-screen flex flex-col justify-center items-center bg-[#F6FBEA]">
+    <div className="h-150 w-120 rounded-1xl shadow-2xl flex flex-col justify-center items-center bg-[#F6FBEA]">
       <h1 className="text-9xl">{c}</h1>
       <div className="flex flex-row gap-6 mt-7  ">
         
