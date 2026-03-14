@@ -5,7 +5,9 @@ import { Con } from './component/conditionalRender/Con'
 import { FilDiv } from './component/FilDiv/FilDiv'
 import { List } from './component/listPrint/List'
 import { ListObj } from './component/listPrint/ListObj'
+import { OnChangeFunc } from './component/onchange/OnChangeFunc'
 import { OnClick } from './component/onClick/OnClick'
+import { ColorPicker } from './component/projects/ClolorPicker'
 import { Student } from './component/student/Student'
 import { Slider } from './component/text-slider-scroll/Slider'
 import { Count } from './component/useStatehook/Count'
@@ -53,7 +55,17 @@ function App() {
 
 
 
-<Count/>
+{/* <Count/> */}
+
+
+      {/* <OnChangeFunc/> */}
+
+  {/* <ColorPicker/> */}
+
+
+
+
+
 
     </>
   )
