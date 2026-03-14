@@ -12,6 +12,7 @@ import { Student } from './component/student/Student'
 import { Slider } from './component/text-slider-scroll/Slider'
 import { Count } from './component/useStatehook/Count'
 import { Hook } from './component/useStatehook/Hook'
+import { UpdaterFunc } from './component/updaterFunc/updaterFunc' 
 
 function App() {
    
@@ -64,7 +65,7 @@ function App() {
 
 
 
-
+    <UpdaterFunc/>
 
 
     </>
