@@ -14,6 +14,7 @@ import { Count } from './component/useStatehook/Count'
 import { Hook } from './component/useStatehook/Hook'
 import { UpdaterFunc } from './component/updaterFunc/updaterFunc' 
 import { UpdateObj } from './component/updateObj/UpdateObj'
+import { UpdateArray } from './component/updateArray/UpdateArray'
 
 function App() {
    
@@ -70,7 +71,8 @@ function App() {
 
 
 
-    <UpdateObj/>
+    {/* <UpdateObj/> */}
+    <UpdateArray/>
 
 
     </>
