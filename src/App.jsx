@@ -13,6 +13,7 @@ import { Slider } from './component/text-slider-scroll/Slider'
 import { Count } from './component/useStatehook/Count'
 import { Hook } from './component/useStatehook/Hook'
 import { UpdaterFunc } from './component/updaterFunc/updaterFunc' 
+import { UpdateObj } from './component/updateObj/UpdateObj'
 
 function App() {
    
@@ -65,7 +66,11 @@ function App() {
 
 
 
-    <UpdaterFunc/>
+    {/* <UpdaterFunc/> */}
+
+
+
+    <UpdateObj/>
 
 
     </>
