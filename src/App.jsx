@@ -15,6 +15,7 @@ import { Hook } from './component/useStatehook/Hook'
 import { UpdaterFunc } from './component/updaterFunc/updaterFunc' 
 import { UpdateObj } from './component/updateObj/UpdateObj'
 import { UpdateArray } from './component/updateArray/UpdateArray'
+import { UpArrObj } from './component/projects/UpArrObj'
 
 function App() {
    
@@ -72,8 +73,8 @@ function App() {
 
 
     {/* <UpdateObj/> */}
-    <UpdateArray/>
-
+    {/* <UpdateArray/> */}
+      <UpArrObj/>
 
     </>
   )
