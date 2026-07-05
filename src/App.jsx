@@ -16,6 +16,11 @@ import { UpdaterFunc } from './component/updaterFunc/updaterFunc'
 import { UpdateObj } from './component/updateObj/UpdateObj'
 import { UpdateArray } from './component/updateArray/UpdateArray'
 import { UpArrObj } from './component/projects/UpArrObj'
+import { Mytodo } from './component/projects/Mytodo'
+import { Dump } from './Dump'
+import { UseEffect1 } from './component/useEffecthook/UseEffect1'
+import { EffGptP1 } from './component/useEffecthook/projChatGpt/EffGptP1'
+import { EffGptP2 } from './component/useEffecthook/projChatGpt/EffGptP2'
 
 function App() {
    
@@ -74,9 +79,24 @@ function App() {
 
     {/* <UpdateObj/> */}
     {/* <UpdateArray/> */}
-      <UpArrObj/>
+      {/* <UpArrObj/> */}
 
+
+
+
+
+      {/* <Mytodo/> */}
+
+{/* <UseEffect1/> */}
+
+{/* <EffGptP1/> */}
+
+<EffGptP2/>
+
+
+      {/* <Dump/> */}
     </>
+
   )
 }
 
